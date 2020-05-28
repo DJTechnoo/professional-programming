@@ -17,7 +17,10 @@ JSON seamlessly between the front-end and back-end.
 ## Discussion (Askel)
 
 ### Code I think is good
-
+In the file `goodCodeAskel.js` I have pasted code I considered good. The reason I think this code is good
+is because this is a component that can be reused anywhere in our React application. It can also be used
+for different roles decided by the case-props passed to the component. Another good thing about this code
+is that it is short and intuitive which makes it easy to read. 
 
 
 
