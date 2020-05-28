@@ -26,7 +26,7 @@ is that it is short and intuitive which makes it easy to read.
 In the file `badCodeAskel.js` I have pasted code I considered bad. The main reason I think this code is bad is because
 of how we used React's built in statemanager "Context API". All the components that end with state are all nested in one another.
 I consider this to be excessive use of global state that would be far better off to be local in other components as they need not
-be accessed elsewhere. This is something I became aware of when the project was nearing completion. It was unfortunately too late to focus on and too muh to fix, which is another reason this code is bad.
+be accessed elsewhere. This is something I became aware of when the project was nearing completion. It was unfortunately too late to focus on and too much to fix, which is another reason this code is bad.
 
 
 ## Discussion (Thomas)
