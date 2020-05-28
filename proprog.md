@@ -27,7 +27,7 @@ was not obvious. Additionally some of the commenting styles we used were borrowe
 Initially we used the principle of XP - pairprogramming where one would write code and the other would observe and review the code
 while it was being written. This resulted in fast code with errors being caught early on. When we wrote code independently, we used
 a kanban board, where the final column on the board was code review before a task was marked as completed. Here we would check
-the components that were created, the props recieved to them, and their reusabillity. We also made use of a the `eslinter` to
+the components that were created, the props recieved to them, and their reusabillity. We also made use of the `eslinter` to
 enforce our coding standards.
 
 
