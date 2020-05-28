@@ -13,6 +13,23 @@ where we could choose more freely, however we decided that our entire applicatio
 written in Javascript. We treated this as a big strength already as we only needed to focus on one language and use
 JSON seamlessly between the front-end and back-end.
 
+### Coding style
+
+Throughout the project we have decided to create all our components with JSX. This is a very intruitive way to create
+components because they provide a markup identical to HTML, as opposed to manually create them with functions and tags as parameters.
+We regarded this a coding style as some companies require them to be created using the latter method. We have followed
+some of the coding standards that Airbnb use in React [here](https://github.com/airbnb/javascript/tree/master/react).
+There is also a section about commenting styles. We would however only comment if it was really necessary with code that
+was not obvious. Additionally some of the commenting styles we used were borrowed from [this link](https://www.inkoop.io/blog/a-guide-to-js-docs-for-react-js/?fbclid=IwAR3Ts8OQB1l-QVf0zu2qWqOKI8ptwhcaIo56wxx2m-A8IUZB6MdIZ_agAfQ).
+
+### Code review
+
+Initially we used the principle of XP - pairprogramming where one would write code and the other would observe and review the code
+while it was being written. This resulted in fast code with errors being caught early on. When we wrote code independently, we used
+a kanban board, where the final column on the board was code review before a task was marked as completed. Here we would check
+the components that were created, the props recieved to them, and their reusabillity. We also made use of a the `eslinter` to
+enforce our coding standards.
+
 
 ## Discussion (Askel)
 
