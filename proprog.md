@@ -22,6 +22,12 @@ some of the coding standards that Airbnb use in React [here](https://github.com/
 There is also a section about commenting styles. We would however only comment if it was really necessary with code that
 was not obvious. Additionally some of the commenting styles we used were borrowed from [this link](https://www.inkoop.io/blog/a-guide-to-js-docs-for-react-js/?fbclid=IwAR3Ts8OQB1l-QVf0zu2qWqOKI8ptwhcaIo56wxx2m-A8IUZB6MdIZ_agAfQ).
 
+### Integrating libraries
+
+When working with React and Node in general there are tons of great libraries available at ones disposal. We, however, only used a handful, and not a library for every single task or feature we implemented. We only used libraries when it was either a part of
+making it easier to write server-side code, such as Express and Mongoose. Whenever a third party library was needed, it was mostly to
+be able to, for example, quickly set up a graph or a chart for visual representation in React. Doing so was very straightforward as libraries for React are mostly React components that are simply imported.
+
 ### Code review
 
 Initially we used the principle of XP - pairprogramming where one would write code and the other would observe and review the code
