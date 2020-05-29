@@ -86,6 +86,11 @@ functions
 ### Code after refactoring
 In the file [afterRefactoringAskel.js](./afterRefactoringAskel.js) is how the component was refactored. The component now receives a `case`, `buttonName`, and a `click` functionality as props. The result of this was that we now could display the components depending on the case, and most importantly send whatever desired click functionality the buttons on the courses may be. Duplicate components that do the exact same thing were avoided, and reuse of components was enforced. On a small side note, propTypes were used to validate the incoming props. This is handy for often reused components where the correct props are ensured to be passed down.
 
+### Reflection
+I always thought the professionalism meant that writing good code with good habits was enough to achieve professionalism. I found out and learned that this could certainly not be further from the truth. It involves several other things such as communication with other teammembers, getting your ideas across, both to them and the client. Often have I found that I sought to solve my problems directly by looking at and blaming my code, while in actuality, the problem is not always the code, but how you approach a certain task/problem as an individual or as a team. A lot of great points were made in the lectures with different perspectives on various problems. There are definitely some things that I felt we were taught early in the 3-year programme that were quite misleading to me, but clarified in this course. An Example if this was commenting code. I was always taught to comment every single line of code and fit everything within 80
+spaces. As a consequence, I became fascinated by commenting everything as it made the code look very professional, and I felt proud
+to do all those within 80 spaces. I later learned that making your code explain itself and as obvious as possible, commenting would not
+be needed, in fact very redundant. But this is only one of many things I feel has taught me to think in a more professional way.
 
 ## Discussion (Thomas)
 
