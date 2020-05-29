@@ -1,6 +1,6 @@
 # Professional Programming
 
-### Students
+### Students and project
 * Askel Eirik Johansson
 * Thomas Østli
 
@@ -15,16 +15,10 @@ where we could choose more freely, however we decided that our entire applicatio
 written in Javascript. We treated this as a big strength already as we only needed to focus on one language and use
 JSON seamlessly between the front-end and back-end. Generally it is used for most web-applications.
 
-There aren't really any cons of using ES5 as opposed to ES6, in 2020. Some strengths of Javascript are it's a somewhat straight forward and popular language, it's quite intuitive to use with things like "const" and "let". Picking it with most experience in C++ programming it wasn't bad.
+Some strengths of Javascript are it's a very untuitive and straight forward language to work with. It is also popular which means that there are a lot of learning resources online such as stackoverflow. The downside of working with Javascript is that the sourcecode is visible to anyone from the browser in developer-tools. This is something that can have vulnerabilities or disclose data that should not be. For this reason, the code must be graced with extra care. Another downside is that different browsers do not interpret Javascript in the same way. Code that works in one browser is not guaranteed to work in the same way in a different browser.
 
 
-**React:**
-A Javascript framework, it first became an option as the comany provided the task for us listed it as a good option, once checking it out we decided it seemed nice to use. A weakness might be that it benefits from external libraries for complex applications, but this didn't become an issue for us, some of it's strengths are:
 
-1. Reusable components, an example is our ui/card.js
-(https://github.com/DJTechnoo/kompi-server/blob/master/client/src/components/UI/Card.js)
-1. Plenty of introduction material
-1. Uses JSX, html syntax in Javascript, which is pretty neat
 
 ### Coding style
 
