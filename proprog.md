@@ -77,6 +77,12 @@ of how we used React's built in statemanager "Context API". All the components t
 I consider this to be excessive use of global state that would be far better off to be local in other components as they need not
 be accessed elsewhere. This is something I became aware of when the project was nearing completion. It was unfortunately too late to focus on and too much to fix, which is another reason this code is bad.
 
+### Code before refactoring
+In the file [beforeRefactoringAskel.js](./beforeRefactoringAskel.js) 
+
+### Code after refactoring
+In the file [afterRefactoringAskel.js](./afterRefactoringAskel.js) 
+
 
 ## Discussion (Thomas)
 
