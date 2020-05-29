@@ -18,8 +18,6 @@ JSON seamlessly between the front-end and back-end. Generally it is used for mos
 Some strengths of Javascript are it's a very untuitive and straight forward language to work with. It is also popular which means that there are a lot of learning resources online such as stackoverflow. The downside of working with Javascript is that the sourcecode is visible to anyone from the browser in developer-tools. This is something that can have vulnerabilities or disclose data that should not be. For this reason, the code must be graced with extra care. Another downside is that different browsers do not interpret Javascript in the same way. Code that works in one browser is not guaranteed to work in the same way in a different browser.
 
 
-
-
 ### Coding style
 
 Throughout the project we have decided to create all our components with JSX. This is a very intuitive way to create
@@ -87,7 +85,9 @@ In the file [goodCodeThomas.js]
 
 ### Code I think is bad
 In the file [badCodeThomas.js]
+To update the status of a task, the user must enter a text. I think the placement of the submit-form and the related code is a bit off, a bit messy, and ideally would've been moved to a different place, it's own file perhaps. 
 
-Small refactoring I did was after finishing writing the front-end and back-end part for the update task status function, I realized an ID I needed for the HTTP request, that I'd been sending as a prop all the way through the program, was already available for use in the back-end through "auth". Thus making parts of the code written quite unnecessary.
+### Refactoring
+Small refactoring I did was after finishing writing the front-end and back-end part for the "update task status" function, I realized an ID I needed for the HTTP request, that I'd been sending as a prop all the way through the program, was already available for use in the back-end through "auth". Thus making parts of the code written quite unnecessary, I then removed it promptly.
 
-Regarding professionalism in programming I ultimately feel I have some ways to go. I've definitely realized it is an important pursuit as to become a good, valuable programmer and employee in the future, so it's something I'll dedicate more time to. 
+Regarding professionalism in programming I ultimately feel I have some ways to go. I've definitely realized it is an important pursuit as to become a good, valuable programmer and employee in the future, so it's something make sure to dedicate more time to. 
