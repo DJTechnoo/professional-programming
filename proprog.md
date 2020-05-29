@@ -82,6 +82,7 @@ be accessed elsewhere. This is something I became aware of when the project was 
 
 ### Code I think is good
 In the file [goodCodeThomas.js]
+Pretty straight forward request, finds one profile and populates it with the user's name and the tasks assigned to the user. Avoiding having to use multiple requests.
 
 ### Code I think is bad
 In the file [badCodeThomas.js]
