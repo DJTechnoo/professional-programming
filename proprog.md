@@ -78,10 +78,13 @@ I consider this to be excessive use of global state that would be far better off
 be accessed elsewhere. This is something I became aware of when the project was nearing completion. It was unfortunately too late to focus on and too much to fix, which is another reason this code is bad.
 
 ### Code before refactoring
-In the file [beforeRefactoringAskel.js](./beforeRefactoringAskel.js) 
+In the file [beforeRefactoringAskel.js](./beforeRefactoringAskel.js) is how code looked at some point during the development.
+This is the same code (slightly altered) as in the "Code I think is good" example.
+This is a React component that loops through `courses` with a `CourseItem` component. The `CourseItem` component used to be a component that already had its own button functionality directly coded in itself, for when a user clicks on a button. In our case, we needed `courses` to have buttons with unique functionalities. As the code in the component is written, to achieve this, either a new component must be created for that purpose, or the same components could be used by passing different props (functions and buttons) to them.
+functions 
 
 ### Code after refactoring
-In the file [afterRefactoringAskel.js](./afterRefactoringAskel.js) 
+In the file [afterRefactoringAskel.js](./afterRefactoringAskel.js) is how the component was refactored. The component now receives a `case`, `buttonName`, and a `click` functionality as props. The result of this was that we now could display the components depending on the case, and most importantly send whatever desired click functionality the buttons on the courses may be. Duplicate components that do the exact same thing were avoided, and reuse of components was enforced. On a small side note, propTypes were used to validate the incoming props. This is handy for often reused components where the correct props are ensured to be passed down.
 
 
 ## Discussion (Thomas)
