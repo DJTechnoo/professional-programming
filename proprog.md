@@ -4,6 +4,8 @@
 * Askel Eirik Johansson
 * Thomas Østli
 
+Main repo: https://github.com/DJTechnoo/kompi-server
+
 ## Group discussion
 ### Chosen language
 
@@ -11,11 +13,22 @@ Since our bachelor thesis involved developing a React web-application we had ver
 choices with regards to programming languages we could use, which is JavaScript ES6. The exception was for the back-end
 where we could choose more freely, however we decided that our entire application, both back-end and front-end, would be
 written in Javascript. We treated this as a big strength already as we only needed to focus on one language and use
-JSON seamlessly between the front-end and back-end.
+JSON seamlessly between the front-end and back-end. Generally it is used for most web-applications.
+
+There aren't really any cons of using ES5 as opposed to ES6, in 2020. Some strengths of Javascript are it's a somewhat straight forward and popular language, it's quite intuitive to use with things like "const" and "let". Picking it with most experience in C++ programming it wasn't bad.
+
+
+**React:**
+A Javascript framework, it first became an option as the comany provided the task for us listed it as a good option, once checking it out we decided it seemed nice to use. A weakness might be that it benefits from external libraries for complex applications, but this didn't become an issue for us, some of it's strengths are:
+
+1. Reusable components, an example is our ui/card.js
+(https://github.com/DJTechnoo/kompi-server/blob/master/client/src/components/UI/Card.js)
+1. Plenty of introduction material
+1. Uses JSX, html syntax in Javascript, which is pretty neat
 
 ### Coding style
 
-Throughout the project we have decided to create all our components with JSX. This is a very intruitive way to create
+Throughout the project we have decided to create all our components with JSX. This is a very intuitive way to create
 components because they provide a markup identical to HTML, as opposed to manually create them with functions and tags as parameters.
 We regarded this a coding style as some companies require them to be created using the latter method. We have followed
 some of the coding standards that Airbnb use in React [here](https://github.com/airbnb/javascript/tree/master/react).
@@ -54,3 +67,8 @@ be accessed elsewhere. This is something I became aware of when the project was 
 
 ## Discussion (Thomas)
 
+### Code I think is good
+In the file [goodCodeThomas.js]
+
+### Code I think is bad
+In the file [badCodeThomas.js]
