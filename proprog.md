@@ -72,3 +72,7 @@ In the file [goodCodeThomas.js]
 
 ### Code I think is bad
 In the file [badCodeThomas.js]
+
+Small refactoring I did was after finishing writing the front-end and back-end part for the update task status function, I realized an ID I needed for the HTTP request, that I'd been sending as a prop all the way through the program, was already available for use in the back-end through "auth". Thus making parts of the code written quite unnecessary.
+
+Regarding professionalism in programming I ultimately feel I have some ways to go. I've definitely realized it is an important pursuit as to become a good, valuable programmer and employee in the future, so it's something I'll dedicate more time to. 
