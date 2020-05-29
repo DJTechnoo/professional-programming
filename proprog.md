@@ -43,6 +43,11 @@ a kanban board, where the final column on the board was code review before a tas
 the components that were created, the props recieved to them, and their reusabillity. We also made use of the `eslinter` to
 enforce our coding standards.
 
+### Communication
+
+We have had communication with several parties during our project. They are the supervisor, our client, and teammates (us).
+Especially during the COVID-19 pandemic we had to continuously use tools for distant communication. We used Teams when communicating
+to our client for discussions and progress reports. We used skype to meet with our supervisor. As for the programming as a team we used Skype with screensharing to show code for review and suggestions. For managing features and tracking backlog we used Trello for our scrumban board. It was very challenging at first to work while our campus was closed, but we quickly got used to working in the way we did. We recognize the fact that it is not all too uncommon for developers to work like this, so it was good to be exposed to this kind of experience.
 
 ## Discussion (Askel)
 
