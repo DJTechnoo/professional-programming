@@ -46,8 +46,24 @@ enforce our coding standards.
 ### Communication
 
 We have had communication with several parties during our project. They are the supervisor, our client, and teammates (us).
-Especially during the COVID-19 pandemic we had to continuously use tools for distant communication. We used Teams when communicating
-to our client for discussions and progress reports. We used skype to meet with our supervisor. As for the programming as a team we used Skype with screensharing to show code for review and suggestions. For managing features and tracking backlog we used Trello for our scrumban board. It was very challenging at first to work while our campus was closed, but we quickly got used to working in the way we did. We recognize the fact that it is not all too uncommon for developers to work like this, so it was good to be exposed to this kind of experience.
+Especially during the COVID-19 pandemic we had to continuously use tools for distant communication. 
+Every three weekds we used Teams to communicate
+with our client for discussions, progress reports and show our designs on screensharing. 
+Every monday at 9:00 we used skype to have group meetings with our supervisor. 
+As for us in the group, we primarily used social media to initiate contact and used Skype with screensharing to show code for review and suggestions. For managing features, issues and tracking backlog we used Trello. We had different with cards as is normal in kanban. The descriptions would be short, with a description in the form of a hybrid between descriptive text and pseudocode. This helped remembering
+the ideas and steps needed to complete the cards.
+It was very challenging at first to work while our campus was closed, but we quickly got used to working in the way we did. We recognize the fact that it is not all too uncommon for developers to work like this, so it was good to be exposed to this kind of experience.
+
+### Version control
+
+We used git for our version control and github to host our code. 
+It was considered to use branching but since there were only the two of us, and we felt the workflow was as good
+as it could be, we figured we would be well off wihout branching and simply make direct commits to the master branch.
+Another reason for us doing so was because we pair programmed a lot of the time.
+Commits were done very often with small portions of code. To avoid merge conflicts we worked on separate components at all times, and made sure that the cards in our Trello board prevented potential merge conflicts.
+We had a policy to always push code that was worked on, and finished, before leaving campus. Anything can happen to a laptop
+at anytime, but the code would be safe.
+
 
 ## Discussion (Askel)
 
